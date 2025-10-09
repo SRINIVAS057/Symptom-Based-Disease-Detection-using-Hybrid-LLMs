@@ -1,6 +1,6 @@
 ##🧠 Symptom-Based Disease Detection using Hybrid LLMs
 
-###🚀 Project Overview
+<h1>🚀 Project Overview</h1>
 
 This project aims to build an AI-driven medical assistant that predicts possible diseases based on symptom descriptions provided by users. The system leverages hybrid transformer-based language models (LLMs) to understand clinical symptom patterns and classify diseases with higher accuracy and interpretability.
 
