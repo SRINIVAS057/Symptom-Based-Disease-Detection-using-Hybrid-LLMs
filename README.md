@@ -1,6 +1,6 @@
-<h1>🧠 Symptom-Based Disease Detection using Hybrid LLMs</h1>
+<h1>Symptom-Based Disease Detection using Hybrid LLMs</h1>
 
-<h3>🚀 Project Overview</h3>
+<h3>Project Overview</h3>
 
 This project aims to build an AI-driven medical assistant that predicts possible diseases based on symptom descriptions provided by users. The system leverages hybrid transformer-based language models (LLMs) to understand clinical symptom patterns and classify diseases with higher accuracy and interpretability.
 
@@ -14,7 +14,7 @@ ELECTRA + XLNet
 
 Each hybrid model captures complementary linguistic and contextual information from medical symptom datasets to enhance diagnostic precision.
 
-<h3>🩺 Motivation</h3>
+<h3>Motivation</h3>
 
 Traditional symptom-based disease detection systems often rely on rule-based or single-model approaches, which struggle to handle ambiguous or overlapping symptoms.
 By fusing two complementary LLMs, this project aims to:
@@ -25,7 +25,7 @@ Reduce false positives in diagnosis
 
 Provide a more reliable disease prediction framework
 
-<h3>🧩 Hybrid Model Architecture</h3>
+<h3>Hybrid Model Architecture</h3>
 
 Each hybrid model follows this pipeline:
 
@@ -38,7 +38,7 @@ The contextual embeddings from both models are concatenated or averaged to form 
 Classification Layer:
 A dense neural layer maps the fused features to the disease output class.
 
-<h3>🧬 Models Used:</h3>
+<h3>Models Used:</h3>
 
 | Model Pair              | Description                                                                                     | Key Strengths                                          |
 | ----------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
@@ -47,7 +47,7 @@ A dense neural layer maps the fused features to the disease output class.
 | **ELECTRA + XLNet**     | Merges ELECTRA’s replaced-token detection with XLNet’s permutation-based learning.              | Strong bidirectional context and generalization.       |
 
 
-<h3>📂 Dataset</h3>
+<h3> Dataset</h3>
 
 Dataset Type: diseases-and-symptoms-dataset
 Records: 246,000+ samples
@@ -55,7 +55,7 @@ Attributes: Symptom_1, Symptom_2, ..., Symptom_n, Disease
 Format: CSV
 Source: Curated symptom-based medical datasets (cleaned and preprocessed)
 
-<h3>⚙️ Methodology</h3>
+<h3> Methodology</h3>
 
 1.Data Preprocessing
   Tokenization, text normalization, and label encoding.
@@ -73,7 +73,7 @@ Source: Curated symptom-based medical datasets (cleaned and preprocessed)
   Classification report, confusion matrix, and F1-scores.
 
 
-<h3>📊 Results Summary</h3>
+<h3> Results Summary</h3>
 
 | **Model**           | **Precision** | **Recall** | **F1-Score** |
 | ------------------- | ------------- | ---------- | ------------ |
